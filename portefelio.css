@@ -1,0 +1,115 @@
+.grid-container {display: grid;grid-template-rows: auto auto auto;
+ 
+}
+
+.grid-container{
+    display: grid;grid-template-columns: auto auto ;
+    max-width:100%;max-height: 100%;
+   background-image: url("image2.jpg");
+   background-repeat: no-repeat;
+   background-size:100% 100% ;
+}
+
+.item1{display: flex;height: 300px; ; align-items: stretch;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+} 
+
+.grid-container1{display: grid;grid-template-columns: auto auto  auto;
+    max-width:100%;max-height: 100%;
+    background-image: url("image3.jpeg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+   margin-inline: 20px;
+
+}
+
+.grid-container2{display: grid;grid-template-columns: auto auto  auto;
+    max-width:100%;max-height: 100%;
+    background-image: url("image5.jpeg");
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+  
+}
+h2{padding: 20px;
+color:darkred;}
+
+.grid-container3{display: grid;grid-template-columns: auto auto  auto;
+    max-width:100%;max-height: 100%;
+    background-image: url("image4.png");
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+     padding: 20px;
+     margin-inline: 60px;
+}
+
+
+section{display:flex;justify-content: flex-end;
+  
+}
+.cont{padding: 20px;}
+.section{margin: 30px 0px;}
+li{margin: 20px 0px;}
+.pro{
+  background-image: url("image9.jpeg");
+  font-family: 'Times New Roman', Times, serif;color: blanchedalmond;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 70px;
+  margin-inline: 20px;
+  
+}
+
+.cont{background-image: url("image11.jpeg");
+background-repeat: no-repeat;
+background-size:100% 100%  ;
+margin-inline: 60px
+}
+.proj{
+  background-image: url("image12.jpeg");
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+ 
+}
+aside{
+  padding-left: 70%;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;color:black
+}
+
+.accueil{
+  margin: 30px 30px 30px 30px;
+  background-image: url(image10.jpg);
+}
+.apropos {
+  margin:150px 150px 150px 150px ;
+  margin-inline: 20px;
+}
+.projets{
+  margin :100px 100px 100px 100px
+}
+.contacte{
+  margin: 150px 150px 150px 150px
+}
+.détailpersonnel{
+  margin-inline: 20px 0px;
+
+}
